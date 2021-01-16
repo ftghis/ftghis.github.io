@@ -13,12 +13,13 @@
   padding-right: 0.5rem;
 
   .post-preview {
-    padding-top: 1.5rem;
+    padding-top: 0rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid var(--main-border-color);
 
     h1 {
-      font-size: 1.4rem;
+      font-size: 1.8rem;
+      padding-top: 0rem;
       margin: 0;
     }
 
@@ -41,7 +42,7 @@
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;
-        -webkit-line-clamp: 2;
+        -webkit-line-clamp: 4;
         -webkit-box-orient: vertical;
       }
     }

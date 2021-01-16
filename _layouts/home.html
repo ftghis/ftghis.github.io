@@ -48,17 +48,10 @@ layout: page
 
 {% for post in posts %}
 
-  <div class="post-preview">
+  <div class="post-preview"> <!-- class="post-preview" -->
     <h1>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </h1>
-
-    <div class="post-content">
-      <p>
-        {% include no-linenos.html content=post.content %}
-        {{ content | markdownify | strip_html | truncate: 200 }}
-      </p>
-    </div>
 
     <div class="post-meta text-muted d-flex justify-content-between">
 
@@ -86,9 +79,18 @@ layout: page
         <span>{{ site.data.label.pin_prompt }}</span>
       </div>
       {% endif %}
-
     </div> <!-- .post-meta -->
 
+    <img src={{ post.image }} class="preview-img" alt="Preview Image"/>
+
+    <div class="post-content">
+      <p>
+        {% include no-linenos.html content=post.content %}
+        {{ content | truncate: 600 }}<!-- | markdownify | strip_html-->
+      </p>
+    </div>
+
+    <a href="{{ post.url | relative_url }}">Continue reading...</a>
   </div> <!-- .post-review -->
 
 {% endfor %}
