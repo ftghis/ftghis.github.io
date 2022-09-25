@@ -1,0 +1,73 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'All Things Spatial'
+theme = "paper"
+
+paginate = 4
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+
+[Params]
+  # color style
+  color = 'wheat'                 # linen, wheat, gray, light
+
+  twitter = 'ftghis'
+  linkedin = 'in/ftghis'
+
+
+  avatar = 'nanxiaobei@gmail.com'
+  name = "Ghislain Fouodji's Blog"
+  bio = "On building digital systems that physically interact with our space.<br/>Director @Streem | Co-founder @selerio | Ex-engineer @AWS."
+
+# ------------------------------
+
+# needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
