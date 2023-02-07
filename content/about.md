@@ -1,8 +1,9 @@
 ---
 title: "About"
-description: "Director @Streem | Co-founder @selerio | Ex-engineer @AWS"
+description: ""
 date: "2019-02-28"
 aliases: ["about-us", "about-ftghis", "contact"]
+disableShare: true
 ---
 
 I love to build scalable robust systems; specially in the areas of distributed systems and spatial computing. I am an exited entrepreneur in AR/AI and ex-tech lead at Amazon.

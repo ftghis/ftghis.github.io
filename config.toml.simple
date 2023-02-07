@@ -1,7 +1,7 @@
 baseURL = 'https://ftghis.github.io'
 languageCode = 'en-us'
 title = 'All Things Spatial'
-theme = "paper"
+theme = ["github.com/adityatelange/hugo-PaperMod"]
 
 paginate = 5
 DefaultContentLanguage = "en"
