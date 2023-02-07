@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://ftghis.github.io'
 languageCode = 'en-us'
 title = 'All Things Spatial'
 theme = "paper"
@@ -13,9 +13,10 @@ enableInlineShortcodes = true
 
   twitter = 'ftghis'
   linkedin = 'in/ftghis'
+  github = 'ftghis'
 
 
-  avatar = 'nanxiaobei@gmail.com'
+  avatar = 'linkedin/in/ftghis'
   name = "Ghislain Fouodji's Blog"
   bio = "On building digital systems that physically interact with our space.<br/>Director @Streem | Co-founder @selerio | Ex-engineer @AWS."
 
