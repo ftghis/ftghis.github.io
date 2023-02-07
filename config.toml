@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'All Things Spatial'
 theme = "paper"
 
-paginate = 4
+paginate = 5
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 
@@ -18,8 +18,9 @@ enableInlineShortcodes = true
 
   avatar = 'linkedin/in/ftghis'
   name = "Ghislain Fouodji's Blog"
-  bio = "On building digital systems that physically interact with our space.<br/>Director @Streem | Co-founder @selerio | Ex-engineer @AWS."
+  bio = "Building digital systems that interact with the physical world. Director @Streem | Co-founder @selerio | Ex-engineer @AWS."
 
+  monoDarkIcon = true
 # ------------------------------
 
 # needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
@@ -34,11 +35,6 @@ enableInlineShortcodes = true
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 10
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
     weight = 10
 
 [taxonomies]
