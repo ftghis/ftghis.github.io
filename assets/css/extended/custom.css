@@ -1,0 +1,7 @@
+.home-info {
+  min-height: 1px;
+}
+
+.main {
+ max-width: calc(var(--main-width) + var(--gap) * 8);
+}

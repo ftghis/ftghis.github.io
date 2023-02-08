@@ -59,21 +59,8 @@ params:
     comments: false
     images: ["papermod-cover.png"]
 
-    profileMode:
-        enabled: false
-        title: Ghislain Fouodji
-        imageUrl: "#"
-        imageTitle: my image
-        # imageWidth: 120
-        # imageHeight: 120
-        buttons:
-            - name: Archives
-              url: archives
-            - name: Tags
-              url: tags
-
     homeInfoParams:
-        Title: "Ghislain Fouodji's Blog"
+        Title: "✍️ Ghislain Fouodji's Blog"
         Content: >
             **Building digital systems that interact with the physical world.**<br/>
             Director @Streem | Co-founder @selerio | Ex-engineer @AWS.
