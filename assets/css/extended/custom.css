@@ -3,5 +3,18 @@
 }
 
 .main {
- max-width: calc(var(--main-width) + var(--gap) * 8);
+ max-width: calc(var(--main-width) + var(--gap) * 12);
+}
+
+.post-content h2 {
+  font-size: 26px;
+  text-align: justify;
+}
+
+.post-content h3 {
+  font-size: 18px;
+}
+
+body {
+  font-size: 16px;
 }
