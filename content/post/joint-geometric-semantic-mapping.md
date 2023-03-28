@@ -6,6 +6,7 @@ tags: [
     "Deep learning",
     "Semantic segmentation",
 ]
+draft: true
 ---
 
 Joint Geometric and Semantic Mapping. Open3D, Tensorflow3D, Pytorch3D. https://medium.com/@kidargueta/3d-object-detection-with-open3d-ml-and-pytorch-backend-b0870c6f8a85

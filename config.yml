@@ -41,7 +41,7 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Building digital systems that interact with the physical world. Director @Streem | Co-founder @selerio | Ex-engineer @AWS."
+    description: "Building artificial systems that interact with the physical world. Director @Streem | Co-founder @selerio | Ex-engineer @AWS."
     author: Ghislain Fouodji
     # author: ["Me", "You"] # multiple authors
 
@@ -62,7 +62,7 @@ params:
     homeInfoParams:
         Title: "✍️ Ghislain Fouodji's Blog"
         Content: >
-            **Building digital systems that interact with the physical world.**<br/>
+            **Building artificial systems that interact with the physical world.**<br/>
             Director @Streem | Co-founder @selerio | Ex-engineer @AWS.
     socialIcons:
         - name: linkedIn
